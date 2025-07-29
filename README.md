@@ -3,7 +3,7 @@
 This project demonstrates a solution in Azure Fabric with 3 pipelines that takes 3 different data sources and extracts the data to an azure DataLake container clasified as a bronze layer.
 
 
-![image](https://github.com/assets/DataFactory.png/)
+![image](assets/DataFactory.png/)
 
 ## 📖 Project Overview
 This project involves:
