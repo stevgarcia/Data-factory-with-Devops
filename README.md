@@ -1,6 +1,6 @@
 # Data-factory-with-Devops
 
-This project demonstrates a solution in Azure Fabric with 3 pipelines that takes 3 different data sources and extracts the data to an azure DataLake container clasified as a bronze layer.
+This project demonstrates a solution in Azure Fabric with 3 pipelines that takes 3 different data sources and extracts the data to an azure DataLake container classified as a bronze layer.
 
 
 ![image](assets/DataFactory.png/)
