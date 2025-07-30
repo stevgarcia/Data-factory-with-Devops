@@ -11,7 +11,8 @@ This project involves:
 1. **Api_ingestion**: extracting data from Github.
 2. **On premises ingestion**: Extracting csv files from a computer)
 3. **SQL ingestion**: database ingestion with incrementing loading, it takes a table and migrates the table based on a date parameter, the data is write in parquet format.
-4. ** Logic App**: a logic app that checks if the SQL ingestion was done perfectly, otherwise, it triggers an email specifying the error and pipeline details
+4. **Logic App**: a logic app that checks if the SQL ingestion was done perfectly, otherwise, it triggers an email specifying the error and pipeline details
+5. **Data flow**: the data flow helps to create derived columns, filters and apply basic transformations in the data.
 
 
    
