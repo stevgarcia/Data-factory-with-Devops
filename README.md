@@ -1,6 +1,7 @@
 # Data-factory-with-Devops
 
-This project demonstrates a solution in Azure Fabric with 3 pipelines that takes 3 different data sources and extracts the data to an azure Data Lake container classified as a bronze layer. A dataflow applies transformations to the data and then write the new data to the silver layer in format of Delta tables
+This project demonstrates a solution in Azure Fabric with 3 pipelines that takes 3 different data sources and extracts the data to an azure Data Lake container classified as a bronze layer. A dataflow applies transformations to the data and then write the new data to the silver layer in format of Delta tables.
+Another dataflow applies data transformation to the delta tables stored in the silver layer and then served as new tables in the gold layer in the data lake.
 
 
 ![image](assets/DataFactory.png/)
